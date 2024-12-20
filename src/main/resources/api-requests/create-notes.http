@@ -1,0 +1,28 @@
+POST http://localhost:8080/api/notes
+Content-Type: application/json
+
+{
+  "title": "Note 1",
+  "content": "Content for first note."
+}
+###
+
+POST http://localhost:8080/api/notes
+Content-Type: application/json
+
+{
+  "title": "Note 2",
+  "content": "Content for second note."
+}
+
+###
+
+POST http://localhost:8080/api/notes
+Content-Type: application/json
+
+{
+  "title": "Note 3",
+  "content": "Content for third note."
+}
+
+
